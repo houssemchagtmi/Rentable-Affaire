@@ -1,0 +1,109 @@
+.search {
+  width: 301px;
+  height: 50px;
+  left: 21px;
+  top: 143px;
+margin-bottom: 10px;
+  background: #fdfefe;
+  border-radius: 50px;
+}
+.Lawyers {
+  width: 193px;
+margin-left:20px ; 
+ top: 294px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  color: #a9d6e5;
+}
+.containerChat{
+  margin: 20em 20em;
+  
+
+}
+.containerChat h1{
+  margin-left: 14em;
+  margin-bottom: 10px;
+}
+.input{
+  display: flex;
+  justify-content: space-between;
+
+}
+.containerChat input{
+  border-radius:20px ;
+  background: linear-gradient(0deg,#b1c1df,#b1c1df),#e5e5e5;
+  border: none;
+  height: 64px;
+  width: 503px;
+}
+
+.containerChat span{
+  margin-left: 33em;
+margin-top: 50px;
+
+}
+
+
+.containerChat span a{
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform .25s;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+.containerChat span a:before,
+.containerChat span a:after{
+  position: absolute;
+  content: "ENTER TO CHAT";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.containerChat span a:before{
+  color: #fff;
+  background: #000;
+  transform: rotateY(0deg) translateZ(25px);
+}
+.containerChat span a:after{
+  color: #000;
+  transform: rotateX(90deg) translateZ(25px);
+}
+.containerChat span a:hover{
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+.message-container textarea{
+  border-radius:20px ;
+  background: linear-gradient(0deg,#b1c1df,#b1c1df),#e5e5e5;
+  border: none;
+  height: 54px;
+  width: 503px;
+}
+.message-container .send-input{
+ position: relative;
+
+}
+
+.message-container #you {
+  position: relative;
+  display: block;
+  background-color: rgb(191, 191, 211);
+  color:rgb(0, 0, 0);
+}
+.message-container #him   {
+  position: relative;
+  display: block;
+  background-color: rgb(231, 245, 104);
+}
+.message-container p{
+  font-size: larger;
+}

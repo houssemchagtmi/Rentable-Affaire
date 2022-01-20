@@ -1,0 +1,9 @@
+.flexhome{
+    display: flex;
+}
+.sidebarhome{
+    background: #012a4a;
+    overflow: scroll;
+    height: 92vh;
+    width: 20em;
+}
